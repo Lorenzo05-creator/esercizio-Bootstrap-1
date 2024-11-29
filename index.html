@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BootBlog</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="collapse" id="navbarToggleExternalContent" data-bs-theme="dark">
+        <div class="bg-dark p-4">
+            <h5 class="text-body-emphasis h4">Ciao AuLab</h5>
+            <span class="text-body-secondary">Spero vi piaccia</span>
+        </div>
+    </div>
+    <nav class="navbar navbar-dark bg-dark sticky-top ">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <form class="d-flex" role="search">
+                <input class="form-control-custom me-2" type="search" placeholder="Cerca" aria-label="Search">
+                <button class="btn btn-outline-info my-0" type="submit">Cerca</button>
+            </div>
+        </nav>
+        <header class="intestazione">
+            
+            <h1>Il Cinema Italiano</h1>
+        </header>
+        <section class="container row justify-content-center align-items-center ">
+            <article class="col-sm-12 col-lg-3 shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+                <a href="https://www.comingsoon.it/film/i-soliti-ignoti/18990/scheda/"><img src="https://mr.comingsoon.it/imgdb/locandine/235x336/18990.jpg"  alt="imgfilm1"></a>
+                <h3>I soliti ignoti</h3>
+                <p>I soliti ignoti è un film commedia del 1958 diretto da Mario Monicelli. <br>
+                    Considerato uno dei capolavori del cinema italiano, <br> il film è anche noto come caposcuola del genere caper movie. <br> Si aggiudicò due Nastri d'argento e una candidatura ai Premi Oscar 1959 come miglior film straniero. <br>
+                    È stato successivamente inserito, come opera rappresentativa, nella lista dei 100 film italiani da salvare. <br>
+                </p> 
+                <br>
+                <a href="https://www.comingsoon.it/film/i-soliti-ignoti/18990/scheda/" target="_blank"><button type="button" class="btncustom btn-outline-secondary9">Leggi di più</button></a>
+            </article>
+            <article class="col-sm-12 col-lg-3 shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+                <a href="https://www.comingsoon.it/film/il-gattopardo/17707/scheda/"><img src="https://mr.comingsoon.it/imgdb/locandine/235x336/17707.jpg" alt="imgfilm2"></a>
+                <h3>Il Gattopardo</h3>
+                <p>Il Gattopardo è un film storico del 1963 diretto da Luchino Visconti, <br> tratto dall'omonimo romanzo di Giuseppe Tomasi di Lampedusa.
+                    La pellicola narra le vicende di una nobile famiglia siciliana,durante il Risorgimento, nei pressi di Palermo. Mentre il <br>generale Garibaldi sbarca a Marsala, il Principe Fabrizio di Salina (Burt Lancaster) assiste rassegnato al declino dell'aristocrazia e all'annessione dell'isola e del suo feudo allo Stato Sabaudo.</p>
+                    <a href="https://www.comingsoon.it/film/il-gattopardo/17707/scheda/" target="_blank"> <button type="button" class="btncustom btn-outline-secondary">Leggi di più</button></a>
+                </article>
+                <article class="col-sm-12 col-lg-3 shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+                    <a href="https://www.comingsoon.it/film/la-dolce-vita/19616/scheda/"><img src="https://mr.comingsoon.it/imgdb/locandine/235x336/19616.jpg" alt="imgfilm3"></a>
+                    <h3>La Dolce Vita</h3>
+                    <p >La dolce vita, film drammatico diretto da Federico Fellini, <br> racconta le vicende di Marcello Rubini (Marcello Mastroianni), <br>un giornalista di scoop scandalistici che vorrebbe in realtà scrivere romanzi. <br>La pellicola, ambientata nella Roma mondana degli anni ’60,<br>svela, attraverso diversi episodi, luci e ombre <br> della società capitolina dell’epoca. </p> <br>
+                    <a href="https://www.comingsoon.it/film/la-dolce-vita/19616/scheda/" target="_blank"><button type="button" class="btncustom btn-outline-secondary ">Leggi di più</button></a>
+                </article>
+            </section>
+            <div class="form-custom">
+                <form>
+                    <div class="mb-4 form-control:focus">
+                        <label for="exampleInputEmail1" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                       Invia
+                      </button>
+                      
+                      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">La tua domanda è stata inviata</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              Grazie per averci contattato!!!
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Chiudi</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    
+                    </div>
+                </div>
+                
+                
+                <div class="container-fluid-custom my-0 mx-0">
+                    
+                    <footer class="bg-dark text-center text-lg-start text-white">
+                        
+                        <div class="container p-4 div-custom">
+                            
+                            <div class="row mt-4">
+                                
+                                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                                    <h5 class="text-uppercase">P.IVA</h5>
+                                    
+                                    <ul class="list-unstyled mb-0">
+                                        <li>
+                                            <a href="#!" class="text-white"><i class="fas fa-book fa-fw fa-sm me-2"></i>65644390349</a>
+                                        </li>
+                                        
+                                    </ul>
+                                </div>
+                                
+                                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                                    <h5 class="text-uppercase">Autore Blog</h5>
+                                    
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <a href="https://hackademy.it/dashboard" class="text-white"><i class="fas fa-shipping-fast fa-fw fa-sm me-2"></i>Profilo</a>
+                                        </li>
+                                        
+                                    </ul>
+                                </div>
+                                
+                                
+                                
+                                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                                    <h5 class="text-uppercase">Contattaci</h5>
+                                    
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <a href="https://aulab.it/" class="text-white"><i class="fas fa-at fa-fw fa-sm me-2"></i>AuLab</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://aulab.it/blog" class="text-white"><i class="fas fa-shipping-fast fa-fw fa-sm me-2"></i>Blog</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://aulab.it/hackademy-full-time/" class="text-white"><i class="fas fa-envelope fa-fw fa-sm me-2"></i>Corsi</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+
+                                    <h5 class="text-uppercase">Blog Cinema</h5>
+                                    
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <a href="https://www.rottentomatoes.com" class="text-white"><i class="fas fa-at fa-fw fa-sm me-2"></i>Tutti i film</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.rottentomatoes.com/browse/movies_in_theaters/sort:newest" class="text-white"><i class="fas fa-shipping-fast fa-fw fa-sm me-2"></i>Ultime uscite</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.rottentomatoes.com/browse/tv_series_browse/sort:popular" class="text-white"><i class="fas fa-envelope fa-fw fa-sm me-2"></i>Serie TV</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                
+                            </div>
+                            
+                        </div>
+                        
+                        
+                        
+                        
+                        
+                        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+                            © 2024 Copyright:
+                            <a class="text-white" href="#!">BootBlog.com</a>
+                        </div>
+                        
+                    </footer>
+                    
+                </div>
+                
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+ </html>
